@@ -1,0 +1,137 @@
+.text-span{
+    font-weight: 700;
+}
+
+.heading-2 {
+    font-size: 3rem;
+}
+
+.main-text {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+.main-text-2 {
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+.icon-heading {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.input-heading {
+   font-size: 2rem;  
+}
+
+.btn {
+    display: block;
+    padding: 10px 40px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #096f26;
+    color: white;
+    max-width: 60%;
+    margin-top: 40px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #47af65;
+    
+}
+
+input {
+    width: 100%;
+    margin-top: 30px;
+    padding: 15px 10px;
+    max-width: 100%;
+    outline: none;
+    border: #dbdbdb solid 2px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* MEDIA Q */
+/* MEDIA Q */
+/* MEDIA Q */
+/* MEDIA Q */
+
+@media screen and (max-width: 1020px){
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+
+
+@media screen and (max-width:780px){
+    .icon-flex {
+        flex-direction: column;
+        margin-top: 70px;
+    }
+
+    body {
+        border: #096f26 solid 15px;
+    }
+
+    .flex-item {
+        width: 80%;
+        padding: 0;
+        margin-bottom: 40px;
+    }
+
+    h1 {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .friendly-reminder {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 70px;
+       padding: 8px;
+    }
+
+    .friendly-flex {
+        width: 90%;
+    }
+
+    .btn {
+        margin: 40px auto;
+
+    }
+
+    br {
+        display: none;
+    }
+
+    .heading-2 {
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 20px;
+        padding: 0;
+    }
+
+    .input-heading {
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
+
+    .icon-heading {
+        font-size: 1.6rem;
+    }
+
+    .icon-text {
+        font-size: 1.2rem;
+     
+    }
+
+   
+
+}
+
